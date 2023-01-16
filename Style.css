@@ -1,0 +1,86 @@
+@keyframes shadow {
+    from {text-shadow:0 0 3px black;}
+    50% {text-shadow: 0 0 30px black;}
+    to {text-shadow:0 0 3px black;}
+}
+.link:hover {
+    animation: shadow 5s ease-in;
+}
+.link2 {
+    font-size: 50px;
+    margin-top: 400px;
+    margin-left: 400px;
+    color: blueviolet;
+}
+
+@keyframes example {
+    from {
+    text-shadow:0 0 3px black;
+    background-color: red;
+    box-shadow: 5px 5px chartreuse
+}
+    25% {background-color: aqua;}
+    50% {background-color: burlywood;
+     transform: translate(55px);}
+    75% {background-color: chartreuse;}
+   to {
+    background-color: red;
+    box-shadow: 9px 9px burlywood;
+    transform: translate(0px);
+    transform: rotate(30deg);
+    }
+}
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: example 4s infinite ease-in-out;
+}
+
+@keyframes example2 {
+    from {left: 0px; top: 100px}
+    25% {transform: rotateX(180deg);}
+    50% {transform: translate(500px, 0);}
+   to {left: 0px; top: -300px;}
+
+}
+.block {
+   position: relative;
+   animation: example2 4s infinite ease-in-out;
+   transform: scale(2);
+  }
+.img {
+    width: 100px;
+    height: 100px;
+}
+   
+@keyframes example3 {
+    from {left: 0px; top: 100px}
+    25% {transform: rotateX(180deg);}
+    50% {transform: translate(700px, 0);}
+   to {right: 0px; top: 700px;}
+
+}
+.snow {
+   position: relative;
+   animation: example3 5s infinite ease-in-out;
+   transform: scale(1.2);
+  }
+.img_2 {
+    width: 100px;
+    height: 100px;
+}
+  
+@keyframes example4 {
+    from {text-shadow:0 0 3px black;}
+    50% {text-shadow: 0 0 30px black;}
+    to {text-shadow:0 0 3px black;}
+}
+.snow:hover {
+    animation: example4 5s infinite ease-in-out;
+    opacity: 2;
+}
+.btn {
+    height: 100px;
+    width: 150px;
+}
