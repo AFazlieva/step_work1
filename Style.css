@@ -76,4 +76,14 @@
     50% {text-shadow: 0 0 30px black;}
     to {text-shadow:0 0 3px black;}
 }
-
+.snow {
+    
+}
+.snow:hover {
+    animation: example4 5s infinite ease-in-out;
+    opacity: 2;
+}
+.btn {
+    height: 100px;
+    width: 150px;
+}
